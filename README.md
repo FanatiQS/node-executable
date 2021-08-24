@@ -11,7 +11,7 @@ This is where my little hack comes into play.
 ```
 #!/usr/bin/env node
 "\"#"/*
-Write-Host "\`e[A\`e[2D" -noNewLine
+Write-Host "`e[F" -noNewLine
 node $MyInvocation.MyCommand.Path
 exit
 */
